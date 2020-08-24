@@ -1,4 +1,4 @@
-@media (min-aspect-ratio: 16/9) {
+/* @media (min-aspect-ratio: 16/9) {
   #videoBG {
     width: 100%;
     height: auto;
@@ -10,7 +10,7 @@
     width: auto;
     height: 100%;
   }
-}
+} */
 
 @media (max-width: 576px) {
   .about-pic {
@@ -35,9 +35,7 @@
   .about-icons {
     font-size: 24px;
   }
-  /* .about-bullets {
-        font-size: ;
-    } */
+
 
   .about-heading {
     font-size: 30px;
@@ -81,9 +79,7 @@
     padding-bottom: 50px;
   }
 
-  .services-main-heading {
-    /* font-size: 28px; */
-  }
+
 
   .things-title {
     font-size: 32px;
@@ -127,10 +123,7 @@
 }
 
 @media (max-height: 350px) {
-  /* .header-div {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  } */
+
 
   .we-div:hover .overlay {
     width: 78%;
