@@ -11,7 +11,7 @@
     height: 100%;
   }
 } */
-
+/* 
 @media (max-width: 576px) {
   .about-pic {
     display: none;
@@ -127,12 +127,7 @@
 
   .we-div:hover .overlay {
     width: 78%;
-  }
-
-  /* .footer-contact {
-    margin: 0 auto;
-  }
-  .margin-footer {
-    border: none;
   } */
-}
+
+
+/* } */
