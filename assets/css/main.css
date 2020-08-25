@@ -370,7 +370,7 @@ body {
 }
 
 .service-card-center {
-  transition: 1.2s;
+  transition: 0.5s;
   opacity: 0;
 }
 
