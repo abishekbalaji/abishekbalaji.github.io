@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 @media (min-width: 1200px) {
@@ -22,7 +22,6 @@ html {
   /* overflow: auto; */
   margin: 0;
   height: 100%;
-  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 body {
@@ -33,6 +32,10 @@ body {
   overflow-x: hidden;
   /* width: 100%; */
   /* overflow: auto; */
+}
+
+main {
+  overflow-x: hidden;
 }
 
 .top-location-social-media {
@@ -417,6 +420,28 @@ body {
   padding-bottom: 15px;
 }
 
+/* Animations */
+
+.modus-div-left {
+  transition: 0.5s;
+  transform-origin: left;
+  transform: translateX(-1000px);
+}
+
+.modus-div-left[data-scroll="in"] {
+  transform: translateX(0);
+}
+
+.modus-div-right {
+  transition: 0.5s;
+  transform-origin: right;
+  transform: translateX(1000px);
+}
+
+.modus-div-right[data-scroll="in"] {
+  transform: translateX(0);
+}
+
 .section-things {
   background-image: url("../images/demolition-background.jpeg");
   background-size: cover;
@@ -524,25 +549,6 @@ body {
   overflow: hidden;
 }
 
-/* .octo, .octo div {
-  margin: 0 auto;
-  transform-origin: 50% 50%;
-  overflow: hidden;
-  width: 320px;
-  height: 320px;
-}
-.octo, .octo div {
-  width: 320px;
-  height: 320px;
-}
-.octo {
-  transform: rotate(45deg);
-}
-.octo1 {
-  background: url("../images/srm.png");
-  transform: rotate(-45deg);
-} */
-
 .section-we {
   /* background-color: #1a1a1d; */
   background-image: url("../images/demolition-background.jpeg");
@@ -561,9 +567,6 @@ body {
   text-align: center;
 }
 
-.we-row-div {
-  /* height: 300px; */
-}
 
 .we-div {
   position: relative;
