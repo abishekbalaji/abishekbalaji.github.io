@@ -373,7 +373,7 @@ body {
 
 .service-card-center {
   position: relative;
-  transition: 0.5s;
+  transition: 1.2s;
   opacity: 0;
 }
 
