@@ -144,8 +144,116 @@
   } */
 }
 
-@media (max-height: 576px) {
-  .header-div {
-    padding-top: 20px;
+@media (max-height: 600px) {
+  .about-pic {
+    display: none;
+  }
+  .main-title {
+    font-size: 40px;
+  }
+
+  .main-subtitle {
+    font-size: 25px;
+  }
+
+  .logo-div {
+    text-align: center;
+  }
+
+  .main-title-div {
+    padding: 20px;
+  }
+
+  .about-icons {
+    font-size: 24px;
+  }
+  /* .about-bullets {
+        font-size: ;
+    } */
+
+  .about-heading {
+    font-size: 30px;
+  }
+
+  .services-sub {
+    border-top: none;
+    padding-top: 0;
+  }
+
+  .services-cards-row {
+    margin-bottom: 0;
+  }
+
+  .service {
+    margin-bottom: 30px;
+  }
+
+  .services-content {
+    padding-bottom: 50px;
+  }
+
+  .modus-main-title {
+    font-size: 40px;
+  }
+
+  .modus-sub-title {
+    font-size: 28px;
+  }
+
+  .modus-sub-desc {
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .modus-div {
+    padding: 20px 25px;
+  }
+
+  .section-modus {
+    padding-bottom: 50px;
+  }
+
+  .services-main-heading {
+    /* font-size: 28px; */
+  }
+
+  .things-title {
+    font-size: 32px;
+  }
+
+  .we-about-content {
+    font-size: 18px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .overlay {
+    left: 10px;
+    height: 70%;
+  }
+
+  .we-div:hover .overlay {
+    width: 120%;
+  }
+
+  .text {
+    height: 70%;
+  }
+
+  .contact-info {
+    font-size: 12px;
+  }
+
+  .address-footer {
+    width: fit-content;
+  }
+  .margin-footer {
+    border: none;
   }
 }
