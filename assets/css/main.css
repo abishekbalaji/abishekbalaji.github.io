@@ -477,6 +477,57 @@ main {
   padding: 10px;
 }
 
+/* Animations */
+
+.thing1 {
+  transition: 0.8s;
+  transform-origin: left;
+  transform: translateX(-1000px);
+}
+
+.thing1[data-scroll="in"] {
+  transform: translateX(0);
+}
+
+.thing2 {
+  transition: 0.5s;
+  transform-origin: left;
+  transform: translateX(-1000px);
+}
+
+.thing2[data-scroll="in"] {
+  transform: translateX(0);
+}
+
+.thing3 {
+  transition: 1s;
+  opacity: 0;
+}
+
+.thing3[data-scroll="in"] {
+  opacity: 1;
+}
+
+.thing4 {
+  transition: 0.5s;
+  transform-origin: right;
+  transform: translateX(1000px);
+}
+
+.thing4[data-scroll="in"] {
+  transform: translateX(0);
+}
+
+.thing5 {
+  transition: 0.8s;
+  transform-origin: right;
+  transform: translateX(1000px);
+}
+
+.thing5[data-scroll="in"] {
+  transform: translateX(0);
+}
+
 .font-pic {
   font-size: 2rem;
   margin-bottom: 20px;
@@ -567,11 +618,29 @@ main {
   text-align: center;
 }
 
+/* Animations------- */
+.we-about {
+  transition: 0.5s;
+  transform-origin: left;
+  transform: translateX(-1000px);
+}
+
+.we-about[data-scroll="in"] {
+  transform: translateX(0);
+}
 
 .we-div {
   position: relative;
   width: 50%;
+  transition: 0.5s;
+  transform-origin: right;
+  transform: translateX(1000px);
 }
+
+.we-div[data-scroll="in"] {
+  transform: translateX(0);
+}
+/* ------------------ */
 
 .we-about-title {
   color: white;
