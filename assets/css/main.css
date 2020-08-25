@@ -48,6 +48,16 @@ button,
   outline: none;
 }
 
+a {
+  text-decoration: none;
+  font-family: inherit;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
 a:focus,
 button:focus,
 #tog-btn:focus {
@@ -397,6 +407,14 @@ a .social-icons {
   color: #ffb600;
 }
 
+.service-body a {
+  color: #ffb600;
+}
+
+.service-body a:hover,
+.service-body:active {
+  color: white;
+}
 /* Animation */
 
 .service-card-left {
@@ -478,6 +496,7 @@ a .social-icons {
   transition: 0.5s;
   transform-origin: left;
   transform: translateX(-1000px);
+  padding-right: 18px;
 }
 
 .modus-div-left[data-scroll="in"] {
@@ -488,6 +507,7 @@ a .social-icons {
   transition: 0.5s;
   transform-origin: right;
   transform: translateX(1000px);
+  padding-left: 18px;
 }
 
 .modus-div-right[data-scroll="in"] {
@@ -654,20 +674,24 @@ a .social-icons {
 
 .section-we {
   /* background-color: #1a1a1d; */
-  background-image: url("../images/demolition-background.jpeg");
+  /* background-image: url("../images/demolition-background.jpeg"); */
   background-size: cover;
 }
 
 .we-content {
-  background-color: rgba(26, 26, 29, 0.8);
-  padding: 100px 0;
+  /* background-color: rgba(26, 26, 29, 0.8); */
+  padding: 80px 0;
+  /* padding-top: 30px; */
 }
 
 .we-title {
-  color: white;
-  font-size: 48px;
-  margin-bottom: 50px;
+  /* color: white; */
   text-align: center;
+  font-size: 54px;
+  background-color: #ffb600;
+  padding: 30px;
+  color: white;
+  margin-bottom: 50px;
 }
 
 /* Animations------- */
@@ -695,20 +719,20 @@ a .social-icons {
 /* ------------------ */
 
 .we-about-title {
-  color: white;
+  /* color: white; */
   border-left: 4px solid #ffb600;
   padding-left: 15px;
   margin-bottom: 40px;
 }
 
 .we-about-content {
-  color: #ffb600;
+  /* color: #ffb600; */
   line-height: 2;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .we-founder-title {
-  color: white;
+  /* color: white; */
   border-left: 4px solid orange;
   padding-left: 15px;
   margin-bottom: 40px;
@@ -848,6 +872,21 @@ footer {
 
 .contact-footer {
   margin-top: 23px;
+}
+
+.contact-info a:hover,
+.contact-info a:active {
+  color: #ffb600;
+}
+
+.social-icons:hover,
+.social-icons:active {
+  color: white;
+}
+
+.contact-icons:hover,
+.contact-icons:active {
+  color: white;
 }
 
 .copyright {
