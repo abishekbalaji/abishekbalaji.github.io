@@ -41,7 +41,8 @@ p,
 a {
   font-family: 'Montserrat', sans-serif;
 }
-a {
+a,
+button {
   outline: none;
 }
 
