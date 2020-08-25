@@ -146,6 +146,6 @@
 
 @media (max-height: 576px) {
   .header-div {
-    padding-bottom: 100px;
+    padding-top: 20px;
   }
 }
