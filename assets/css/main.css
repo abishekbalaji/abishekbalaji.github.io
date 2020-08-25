@@ -235,14 +235,14 @@ body {
   background-clip: content-box;
   background-size: contain;
   background-repeat: no-repeat;
-  transition: 0.5s;
+  /* transition: 0.5s;
   transform-origin: right;
-  transform: translateX(1000px);
+  transform: translateX(1000px); */
 }
 
-.about-pic[data-scroll="in"] {
+/* .about-pic[data-scroll="in"] {
   transform: translateX(0);
-}
+} */
 
 .about-heading {
   /* color: #66fcf1; */
@@ -348,7 +348,7 @@ body {
 }
 
 /* Animation */
-
+/* 
 .service-card-left {
   transition: 0.5s;
   transform-origin: left;
@@ -376,7 +376,7 @@ body {
 
 .service-card-center[data-scroll="in"] {
   opacity: 1;
-}
+} */
 
 .section-modus {
   /* background-color: #1a1a1d; */
