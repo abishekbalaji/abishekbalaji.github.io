@@ -23,7 +23,7 @@ html {
   margin: 0;
   /* height: 100%; */
   scroll-behavior: smooth;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 body {
   overflow-x: hidden;
