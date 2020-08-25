@@ -15,6 +15,12 @@
 
 
 @media (max-width: 576px) {
+  .top-location {
+    font-size: 12px;
+  }
+  .top-location-icon {
+    font-size: 16px;
+  }
   .about-pic {
     display: none;
   }
