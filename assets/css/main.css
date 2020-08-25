@@ -226,6 +226,7 @@ body {
 }
 
 .about-pic {
+  position: relative;
   /* text-align: center; */
   background-position-y: 80%;
   background-image: url("../images/machine.jpg");
@@ -234,6 +235,13 @@ body {
   background-clip: content-box;
   background-size: contain;
   background-repeat: no-repeat;
+  transition: 0.5s;
+  transform-origin: right;
+  transform: translateX(1000px);
+}
+
+.about-pic[data-scroll="in"] {
+  transform: translateX(0);
 }
 
 .about-heading {
@@ -253,7 +261,15 @@ body {
   font-size: 15px;
   font-weight: bold;
   margin-bottom: 20px;
+  opacity: 0;
+  transition: 1s;
   /* margin-left: 5px; */
+}
+
+/* Animation */
+
+.about-bullets[data-scroll="in"] {
+  opacity: 1;
 }
 
 .about-icons {
@@ -331,21 +347,36 @@ body {
   color: #ffb600;
 }
 
-/* .parallax::after {
-  content: " "; 
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform: translateZ(-1px) scale(1.5);
-  background-size: 100%;
-  z-index: -1;
+/* Animation */
+
+.service-card-left {
+  transition: 0.5s;
+  transform-origin: left;
+  transform: translateX(-1000px);
 }
 
-.bg::after {
-  background-image: url('../images/demolition-background.jpeg');
-} */
+.service-card-left[data-scroll="in"] {
+  transform: translateX(0);
+}
+
+.service-card-right {
+  transition: 0.5s;
+  transform-origin: right;
+  transform: translateX(1000px);
+}
+
+.service-card-right[data-scroll="in"] {
+  transform: translateX(0);
+}
+
+.service-card-center {
+  transition: 1.2s;
+  opacity: 0;
+}
+
+.service-card-center[data-scroll="in"] {
+  opacity: 1;
+}
 
 .section-modus {
   /* background-color: #1a1a1d; */
