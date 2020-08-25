@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 @media (min-width: 1200px) {
@@ -22,7 +22,7 @@ html {
   /* overflow: auto; */
   margin: 0;
   height: 100%;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 body {
@@ -350,6 +350,7 @@ body {
 /* Animation */
 
 .service-card-left {
+  position: relative;
   transition: 0.5s;
   transform-origin: left;
   transform: translateX(-1000px);
@@ -360,6 +361,7 @@ body {
 }
 
 .service-card-right {
+  position: relative;
   transition: 0.5s;
   transform-origin: right;
   transform: translateX(1000px);
@@ -370,6 +372,7 @@ body {
 }
 
 .service-card-center {
+  position: relative;
   transition: 0.5s;
   opacity: 0;
 }
