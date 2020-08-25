@@ -148,6 +148,11 @@
   .about-pic {
     display: none;
   }
+
+  .header-div {
+    padding-bottom: 100px;
+  }
+  
   .main-title {
     font-size: 30px;
   }
