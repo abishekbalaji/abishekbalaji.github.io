@@ -36,7 +36,7 @@ body {
   /* overflow: auto; */
 }
 
-main {
+#main {
   overflow-x: hidden;
 }
 
