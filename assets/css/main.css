@@ -262,6 +262,21 @@ body {
   color: #ffb600;
 }
 
+/* Animation */
+
+.about-section-intro {
+  position: relative;
+  transition: 0.5s;
+  transform-origin: left;
+  transform: translateX(-1000px);
+}
+
+.about-section-intro[data-scroll="in"] {
+  transform: translateX(0);
+  /* transition-delay: 1s; */
+}
+
+
 .services-cards-row {
   /* padding: 50px; */
   margin: 0;
