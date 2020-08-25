@@ -97,8 +97,8 @@
   }
 
   .image {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
   }
 
   .overlay {
@@ -107,7 +107,7 @@
   }
 
   .we-div:hover .overlay {
-    width: 120%;
+    width: 125%;
   }
 
   .text {
@@ -244,7 +244,7 @@
   }
 
   .we-div:hover .overlay {
-    width: 120%;
+    width: 100%;
   }
 
   .text {
