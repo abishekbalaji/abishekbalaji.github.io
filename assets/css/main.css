@@ -348,7 +348,7 @@ body {
 }
 
 /* Animation */
-/* 
+
 .service-card-left {
   transition: 0.5s;
   transform-origin: left;
@@ -376,7 +376,7 @@ body {
 
 .service-card-center[data-scroll="in"] {
   opacity: 1;
-} */
+}
 
 .section-modus {
   /* background-color: #1a1a1d; */
