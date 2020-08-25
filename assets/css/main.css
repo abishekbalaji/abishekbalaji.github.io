@@ -41,6 +41,9 @@ p,
 a {
   font-family: 'Montserrat', sans-serif;
 }
+a {
+  outline: none;
+}
 
 header {
   overflow-x: hidden;
@@ -109,6 +112,10 @@ a .social-icons {
 
 .top-contact-btn {
   margin-bottom: 15px;
+}
+
+#top-contact-us-btn {
+  outline: none;
 }
 .container1 a {
   text-decoration: none;
