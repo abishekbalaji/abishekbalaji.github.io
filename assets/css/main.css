@@ -42,7 +42,8 @@ a {
   font-family: 'Montserrat', sans-serif;
 }
 a,
-button {
+button,
+#tog-btn {
   outline: none;
 }
 
