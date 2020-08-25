@@ -41,11 +41,20 @@ p,
 a {
   font-family: 'Montserrat', sans-serif;
 }
+
 a,
 button,
 #tog-btn {
   outline: none;
 }
+
+a:focus,
+button:focus,
+#tog-btn:focus {
+  outline: none;
+}
+
+
 
 header {
   overflow-x: hidden;
@@ -67,6 +76,11 @@ header {
 .top-para-content a {
   font-weight: bold;
   color: #ffb600;
+}
+
+.top-para-content a:hover,
+.top-para-content a:active {
+  color: #030303;
 }
 
 
@@ -347,8 +361,8 @@ a .social-icons {
 .services-content {
   background-color: rgba(26, 26, 29, 0.8);
   /* background-color: #ffb600; */
-  padding: 100px 0;
-  padding-top: 50px;
+  padding: 50px 0;
+  /* padding-top: 50px; */
 }
 
 .services-sub {
@@ -428,6 +442,10 @@ a .social-icons {
   background-color: #ffb600;
   padding: 30px;
   color: white;
+}
+
+.modus-row1 {
+  margin-top: 20px;
 }
 
 .modus-sub-title {
