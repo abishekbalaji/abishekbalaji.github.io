@@ -6,8 +6,17 @@
   color: #ffb600;
   text-align: center;
   margin-bottom: 2rem;
-  font-size: 4rem;
+  font-size: 50px;
 }
+
+.testimonials-title {
+  color: #ffb600;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 50px;
+  /* font-weight: bold; */
+}
+
 #gap {
   color: #555759;
   padding-left: 6rem;
@@ -318,9 +327,18 @@
 
 .experience-area {
   margin: auto;
+  /* margin-top: 70px; */
 }
 
 #gap {
   padding: 0;
-  margin-top: 50px;
+  /* margin-top: 20px; */
+  /* margin-bottom: 30px; */
+  font-size: 24px;
+  padding-top: 50px;
+}
+
+#ph {
+  font-size: 50px !important;
+  color: blueviolet;
 }
