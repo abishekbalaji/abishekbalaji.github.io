@@ -21,6 +21,19 @@
     ></script>
     <!-- Bootstrap JS -->
     <script src="assets/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./Magnific-Popup/dist/magnific-popup.css">
+    
+    <!-- Vendor CSS Files -->
+    <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="./vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="./vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="./vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="./vendor/aos/aos.css" rel="stylesheet">
+      
+  
+      <!-- link css file -->
+      <link rel="stylesheet" href="./css/style.css" />
     <!-- Main CSS file -->
     <link rel="stylesheet" href="assets/css/main.css" />
     <!-- Responsive CSS -->
@@ -75,7 +88,7 @@
 
       
     </header>
-    <main>
+    <main class="site-main">     <!--Added class********************-->
       <nav id="navig" class="sticky-top navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container">
           <!-- <a class="navbar-brand brand-text" href="#">Deepam</a> -->
@@ -657,54 +670,316 @@
           </div>
           
         </section>
-        <section class="section-portfolio">
-          <!-- <h1>Past Projects</h1> -->
-          <div class="portfolio-div container">
-            <div class="row">
-              <div class="col-lg-4 projects">
-                <div class="projects-desc">
-                  <h2 class="projects-title">Portfolio</h2>
-                  <h3 class="projects-subtitle">Our recent projects</h3>
-                </div>
-              </div>
-              <div class="col-lg-8">
-                <div class="row">
-                  <div class="col-lg-3 project"></div>
-                  <div class="col-lg-3 project"></div>
-                  <div class="col-lg-3 project"></div>
-                  <div class="col-lg-3 project"></div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-3 project"></div>
-                  <div class="col-lg-3 project"></div>
-                  <div class="col-lg-3 project"></div>
-                  <div class="col-lg-3 project"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          </div>
-        </section>
-        
-        
-        <section class="section-clients">
-          <h1 class="clients-title">Our Clients</h1>
-          <div class="row">
-            <di class="col-lg-3 client">
-              <!-- <div class="part">
-                  <div class="octo">
-                    <div class="octo1">
-                      <img src="http://farm3.staticflickr.com/2441/3657346647_a11111ed39_z.jpg?zz=1" alt="" width="320" height="316" /> -->
-                      <!-- <img src="assets/images/srm.png" alt="" width="320" height="316" /> -->
+              <!-- project area starts...................................................................... -->
+
+      <section id="portfolio" class="portfolio">
+        <div class="container">
   
-                    <!-- </div> -->
-                  <!-- </div> -->
-              <!-- </div> -->
+          <div class="section-title">
+            <h1  id="ph"> OUR PORTFILO</h1>
+            <h3 id="gap"> our projects info...</h3>
+          </div>
   
+          <div class="row" data-aos="fade-up">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li  data-filter="*" class="filter-active">All Projects</li>
+                <li data-filter=".filter-bridge">BRIDGE</li>
+                <li data-filter=".filter-watertank">WATER TANK</li>
+                <li data-filter=".filter-industry">Industry</li>
+                <li data-filter=".filter-building">BUILDINGS</li>
+                <li data-filter=".filter-plant">PLANT</li>
+                <li data-filter=".filter-silo">Silo</li>
+                <li data-filter=".filter-multiplex">Multiplex</li>
+
+              </ul>
             </div>
           </div>
   
-        </section>
+          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="150">
+            
+            <!-- 1 first div section -->
+  
+            <!-- 1-->
+            <div class="col-lg-3 col-md-6 portfolio-item filter-bridge">
+              <img src="./images/portfolio/p1.JPG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>DEEPAM </h4>
+                <!--    <p></p> we can add some more details further   -->
+                <a href="./images/portfolio/p1.JPG" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+              <!-- 2 -->
+            <div class="col-lg-3 col-md-6 portfolio-item filter-multiplex">
+              <img src="./images/portfolio/p2.JPG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>DEEPAM</h4>
+                <!-- <p>Web</p> -->
+                <a href="./images/portfolio/p2.JPG" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div class="col-lg-3 col-md-6 portfolio-item filter-plant">
+              <img src="./images/portfolio/p3.JPG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>DEEPAM</h4>
+                <!-- <p>App</p> -->
+                <a href="./images/portfolio/p3.JPG" data-gall="portfolioGallery" class="venobox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+              <!-- 4-->
+              <div class="col-lg-3 col-md-6 portfolio-item filter-watertank">
+                <img src="./images/portfolio/p3.JPG" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>DEEPAM</h4>
+                  <!-- <p>App</p> -->
+                  <a href="./images/portfolio/p3.JPG" data-gall="portfolioGallery" class="venobox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+
+              <!-- 2 second div section -->
+
+
+              <!-- 5 -->
+            <div class="col-lg-3 col-md-6 portfolio-item filter-silo">
+              <img src="./images/portfolio/p8.JPG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>deepam</h4>
+                <!-- <p></p> -->
+                <a href="./images/portfolio/p8.JPG" data-gall="portfolioGallery" class="venobox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+              <!-- 6 -->
+            <div class="col-lg-3 col-md-6 portfolio-item filter-bridge">
+              <img src="./images/portfolio/p5.JPG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>DEEPAM</h4>
+                <!-- <p>Web</p> -->
+                <a href="./images/portfolio/p5.JPG" data-gall="portfolioGallery" class="venobox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+              <!-- 7 -->
+            <div class="col-lg-3 col-md-6 portfolio-item filter-industry">
+              <img src="./images/portfolio/p6.JPG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>DEEPAM</h4>
+                <!-- <p>App</p>  -->
+                <a href="./images/portfolio/p6.JPG" data-gall="portfolioGallery" class="venobox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+              <!-- 8 -->
+            <div class="col-lg-3 col-md-6 portfolio-item filter-watertank">
+              <img src="./images/portfolio/p7.JPG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>DEEPAM</h4>
+                <!-- <p>Card</p> -->
+                <a href="./images/portfolio/p7.JPG" data-gall="portfolioGallery" class="venobox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <!-- 3 third div section -->
+
+              <!-- 9 -->
+            <div class="col-lg-3 col-md-6 portfolio-item filter-plant">
+              <img src="./images/portfolio/p8.JPG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>DEEPAM</h4>
+                <!-- <p>Card</p> -->
+                <a href="./images/portfolio/p8.JPG" data-gall="portfolioGallery" class="venobox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+              <!-- 10 -->
+            <div class="col-lg-3 col-md-6 portfolio-item filter-silo">
+              <img src="./images/portfolio/p9.JPG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>DEEPAM</h4>
+                <!-- <p>Web</p> -->
+                <a href="./images/portfolio/p9.JPG" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+            <!-- 11 -->
+            <div class="col-lg-3 col-md-6 portfolio-item filter-bridge">
+              <img src="./images/portfolio/p9.JPG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>DEEPAM</h4>
+                <!-- <p>Web</p> -->
+                <a href="./images/portfolio/p9.JPG" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <!-- 12-->
+            <div class="col-lg-3 col-md-6 portfolio-item filter-building">
+              <img src="./images/portfolio/p9.JPG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>DEEPAM</h4>
+                <!-- <p>Web</p> -->
+                <a href="./images/portfolio/p9.JPG" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section>
+
+      <!-- project area ends..................................................................... -->
+        
+      
+                <!--  ======================== Brand Area ==============================  -->
+              <section class="brand1">
+                <h1 id="brand">OUR TOP CLIENTS</h1>
+                <section class="brand-area">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-xl-6 col-lg-12 col-md-12">
+                              <div class="first-row row">
+                                  <div class="col-lg-4 col-md-6 col-sm-6">
+                                      <div class="single-brand">
+                                          <img src="./images/brands/logo1.png" alt="Brand-1 ">
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-6 col-sm-6">
+                                      <div class="single-brand">
+                                          <img src="./images/brands/logo2.png" alt="Brand-2 ">
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-6 col-sm-6">
+                                      <div class="single-brand">
+                                          <img src="./images/brands/logo3.png" alt="Brand-3 ">
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-6 col-sm-6">
+                                      <div class="single-brand">
+                                          <img src="./images/brands/logo4.png" alt="Brand-4">
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-6 col-sm-6">
+                                      <div class="single-brand">
+                                          <img src="./images/brands/logo5.png" alt="Brand-5 ">
+                                      </div>
+                                  </div>
+                                   <div class="col-lg-4 col-md-6 col-sm-6">
+                                      <div class="single-brand">
+                                          <img src="./images/brands/logo6.png" alt="Brand-6">
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-6 col-sm-6">
+                                      <div class="single-brand">
+                                          <img src="./images/brands/logo7.png" alt="Brand-7 ">
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-6 col-sm-6">
+                                      <div class="single-brand">
+                                          <img src="./images/brands/logo8.png" alt="Brand-8 ">
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-6 col-sm-6">
+                                      <div class="single-brand">
+                                          <img src="./images/brands/logo9.png" alt="Brand-9">
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-xl-6 col-lg-12 col-md-12">
+                              <div class="experience-area">
+                                  <h3 id ="gap">There's No Substitute for Experience
+                                  </h3>
+                                     <h3 id ="gap">We are Always Looking Ahead
+                                  </h3>
+                                  <h3 id ="gap">We're People Focused
+                                  </h3>
+                                  <h3 id ="gap">Honesty is Always the Best Policy
+                                  </h3> 
+                                  
+                              </div>
+                          </div>
+                      </div>
+                  </div> 
+              </section>
+              </section>
+        
+              <!--  ======================== End Brand Area ==============================  -->
+              <!-- ======= Testimonials Section ======= -->
+ <section id="testimonials" class="section-bg">
+  <div class="container" data-aos="fade-up">
+
+    <header class="section-header">
+      <h3 id ="brand">Testimonials</h3>
+    </header>
+
+    <div class="owl-carousel testimonials-carousel">
+
+      <div class="testimonial-item">
+        <img src="./images/testimonials/t1.jpg" class="testimonial-img" alt="">
+        <h3 id="testimonial-name">Saul Goodman</h3>
+        <h4>Ceo &amp; Founder</h4>
+        <p>
+          <!-- <img src="./im" class="quote-sign-left" alt=""> -->
+          Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+          <!-- <img src="./iages/testimonials/t1.jpg" class="quote-sign-right" alt=""> -->
+        </p>
+      </div>
+
+      <div class="testimonial-item">
+        <img src="./images/testimonials/t1.jpg" class="testimonial-img" alt="">
+        <h3 id="testimonial-name">Sara Wilsson</h3>
+        <h4>Designer</h4>
+        <p>
+          <!-- <img src="./images/testimonials/t1.jpg" class="quote-sign-left" alt=""> -->
+          Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+          <!-- <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt=""> -->
+        </p>
+      </div>
+
+      <div class="testimonial-item">
+        <img src="./images/testimonials/t2.jpg" class="testimonial-img" alt="">
+        <h3 id="testimonial-name">Jena Karlis</h3>
+        <h4>Store Owner</h4>
+        <p>
+          <!-- <img src="assets/img/quote-sign-left.png" class="quote-sign-left" alt=""> -->
+          Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+          <!-- <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt=""> -->
+        </p>
+      </div>
+
+      <div class="testimonial-item">
+        <img src="./images/testimonials/t1.jpg" class="testimonial-img" alt="">
+        <h3 id="testimonial-name">Matt Brandon</h3>
+        <h4>Freelancer</h4>
+        <p>
+          <!-- <img src="assets/img/quote-sign-left.png" class="quote-sign-left" alt=""> -->
+          Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+          <!-- <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt=""> -->
+        </p>
+      </div>
+
+      <div class="testimonial-item">
+        <img src="./images/testimonials/t1.jpg" class="testimonial-img" alt="">
+        <h3 id="testimonial-name">John Larson</h3>
+        <h4>Entrepreneur</h4>
+        <p>
+          <!-- <img src="assets/img/quote-sign-left.png" class="quote-sign-left" alt=""> -->
+          Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+          <!-- <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt=""> -->
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- End Testimonials Section -->     
         <section class="section-we" id="about">
           <div class="we-content">
             <div class="container">
@@ -799,6 +1074,24 @@
         targets: '.about-section-intro, .about-bullets, .service-card-left, .service-card-right, .service-card-center, .about-pic, .modus-div-left, .modus-div-right, .thing1, .thing2, .thing3, .thing4, .thing5, .we-about, .we-div'
       })
     </script>
+
+
+<!-- new files********************************************************** -->
+     
+     <!-- Vendor JS Files -->
+  <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="./vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="./vendor/venobox/venobox.min.js"></script>
+  <!-- <script src="./vendor/owl.carousel/owl.carousel.min.js"></script> -->
+  <script src="./vendor/owl.carousel/owl.carousel.js"></script>
+  <script src="./vendor/aos/aos.js"></script>
+  <script src="./Magnific-Popup/dist/jquery.magnific-popup.js"></script>
+  <script src="./Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+    <!-- custom js file -->
+
+    <script src="./owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
 

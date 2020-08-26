@@ -39,7 +39,7 @@ body {
 
 p,
 a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 a,
@@ -63,8 +63,6 @@ button:focus,
 #tog-btn:focus {
   outline: none;
 }
-
-
 
 header {
   overflow-x: hidden;
@@ -92,7 +90,6 @@ header {
 .top-para-content a:active {
   color: #030303;
 }
-
 
 .social-icons {
   margin: 0 10px;
@@ -350,7 +347,6 @@ a .social-icons {
   transform: translateX(0);
   /* transition-delay: 1s; */
 }
-
 
 .services-cards-row {
   /* padding: 50px; */
