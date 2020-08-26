@@ -110,6 +110,22 @@
     font-size: 30px;
   }
 
+  #ph {
+    font-size: 30px;
+  }
+
+  #gap {
+    font-size: 18px;
+  }
+
+  #brand {
+    font-size: 30px;
+  }
+
+  .testimonials-title {
+    font-size: 30px;
+  }
+
   .we-about-content {
     font-size: 16px;
     text-align: justify;
@@ -124,6 +140,10 @@
 
   .we-div {
     width: 300px;
+  }
+
+  .we-title {
+    font-size: 30px;
   }
 
   .we-about-title {
@@ -164,7 +184,7 @@
   }
 
   .copyright-text {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .copyright {
