@@ -166,6 +166,10 @@
   .copyright-text {
     font-size: 12px;
   }
+
+  .copyright {
+    padding: 10px;
+  }
 }
 
 @media (max-height: 350px) {
