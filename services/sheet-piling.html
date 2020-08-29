@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Deepam</title>
+    <!-- Google Fonts -->
+    <!-- Roboto, Montserrat, Do Hyeon -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Montserrat:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Font Awesome -->
     <script
       src="https://kit.fontawesome.com/4fec4d615a.js"
@@ -21,34 +27,60 @@
     ></script>
     <!-- Bootstrap JS -->
     <script src="../assets/js/bootstrap.min.js"></script>
+    <!-- <link rel="stylesheet" href="./Magnific-Popup/dist/magnific-popup.css" /> -->
+
+    <!-- Vendor CSS Files -->
+    <!-- <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
+    <link href="./vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="./vendor/venobox/venobox.css" rel="stylesheet" />
+    <link
+      href="./vendor/owl.carousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link href="./vendor/aos/aos.css" rel="stylesheet" /> -->
+
+    <!-- link css file -->
+    <!-- <link rel="stylesheet" href="./css/style.css" /> -->
     <!-- Main CSS file -->
     <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="stylesheet" href="../assets/css/sheet-pile.css">
+    <link rel="stylesheet" href="sheet-pile-main.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="../assets/css/responsive.css" />
   </head>
   <body>
     <header>
       <div class="top-location-social-media row">
-        <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+        <div class="col-sm-8">
           <p class="top-location">
-            <i class="fas fa-map-marker-alt"></i> Chennai, Tamil Nadu, India
+            <i class="fas fa-map-marker-alt top-location-icon"></i> Chennai,
+            Tamil Nadu, India
           </p>
         </div>
 
-        <div class="top-social-media col-lg-4">
+        <div class="top-social-media col-sm-4">
           <div class="top-social-media-container ml-auto">
-            <span><i class="fab fa-facebook social-icons"></i></span>
-            <span><i class="fab fa-instagram social-icons"></i></span>
-            <span><i class="fab fa-twitter social-icons"></i></span>
+            <span
+              ><a href="https://www.facebook.com/deepamchennai/"
+                ><i class="fab fa-facebook social-icons"></i></a
+            ></span>
+            <span
+              ><a href="https://www.instagram.com/deepam_engineering/"
+                ><i class="fab fa-instagram social-icons"></i></a
+            ></span>
+            <span
+              ><a href="#"><i class="fab fa-twitter social-icons"></i></a
+            ></span>
           </div>
         </div>
       </div>
       <div class="container container1">
         <div class="row align-items-center">
           <div class="col-xs-12 col-md-4 logo-div">
-            <a href="../index.html">
+            <a href="index.html">
               <img
-                src="../assets/images/1.png"
+                src="assets/images/1.png"
                 width="90"
                 height="90"
                 alt=""
@@ -63,14 +95,18 @@
                 <li>
                   <div>
                     <p class="top-contact-para">Call Us</p>
-                    <p class="top-contact-para top-para-content">1234567890</p>
+                    <p class="top-contact-para top-para-content">
+                      <a href="tel:+91 1234567890">+91 1234567890</a>
+                    </p>
                   </div>
                 </li>
                 <li>
                   <div>
                     <p class="top-contact-para">Email Us</p>
                     <p class="top-contact-para top-para-content">
-                      deepamchennai87@gmail.com
+                      <a href="mailto:deepamchennai87@gmail.com"
+                        >deepamchennai87@gmail.com</a
+                      >
                     </p>
                   </div>
                 </li>
@@ -88,13 +124,16 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="site-main">
+      <!--Added class********************-->
       <nav
         id="navig"
         class="sticky-top navbar navbar-expand-lg bg-dark navbar-dark"
       >
         <div class="container">
+          <!-- <a class="navbar-brand brand-text" href="#">Deepam</a> -->
           <button
+            id="tog-btn"
             class="navbar-toggler"
             type="button"
             data-toggle="collapse"
@@ -107,37 +146,72 @@
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- <div class="nav__contact-details">
+            <ul class="navbar-nav nav__links">
+              <li class="nav-item active d-flex align-items-end">
+                <a class="nav-link nav__link" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav__link" href="#">About Us</a>
+              </li>
+            </ul>
+          </div> -->
             <div class="nav_links_div">
               <ul class="navbar-nav nav__links">
                 <li class="nav-item active d-flex align-items-end">
-                  <a class="nav-link nav__link" href="../index.html"
+                  <a class="nav-link nav__link" href="#"
                     >Home <span class="sr-only">(current)</span></a
                   >
                 </li>
-                <!-- <li class="nav-item">
+                <li class="nav-item">
                   <a class="nav-link nav__link" href="#about">About Us</a>
-                </li> -->
+                </li>
                 <li class="nav-item">
                   <div class="dropdown1">
-                    <a class="nav-link nav__link dropbtn" href="#"
+                    <a class="nav-link nav__link dropbtn" href="#services"
                       >Services</a
                     >
                     <div class="dropdown-content1">
-                      <a href="high-reach.html">High Reach Demolition</a>
-                      <a href="jaw-crushers.html">Jaw Crushers</a>
-                      <a href="building-demolition.html">Building Demolition</a>
-                      <a href="bridge-demolition.html">Bridge Demolition</a>
-                      <a href="water-tank.html">Overhead Water Tank Demolition</a>
-                      <a href="power-plant.html">Power Plant Demolition</a>
-                      <a href="cricket-stadium.html">Cricket Stadium Demolition</a>
-                      <a href="silo.html">Silo Demolition</a>
-                      <a href="industrial-building.html">Industrial Building Demolition</a>
-                      <a href="hanging.html">Hanging Demolition</a>
-                      <a href="soil-excavation.html">Soil Excavation</a>
-                      <a href="debris-removing.html">Debris Removing</a>
-                      <a href="#">Sheet Piling(6 M) and Shoring</a>
+                      <a href="services/high-reach.html"
+                        >High Reach Demolition</a
+                      >
+                      <a href="services/jaw-crushers.html">Jaw Crushers</a>
+                      <a href="services/building-demolition.html"
+                        >Building Demolition</a
+                      >
+                      <a href="services/bridge-demolition.html"
+                        >Bridge Demolition</a
+                      >
+                      <a href="services/water-tank.html"
+                        >Overhead Water Tank Demolition</a
+                      >
+                      <a href="services/power-plant.html"
+                        >Power Plant Demolition</a
+                      >
+                      <a href="services/cricket-stadium.html"
+                        >Cricket Stadium Demolition</a
+                      >
+                      <a href="services/silo.html">Silo Demolition</a>
+                      <a href="services/industrial-building.html"
+                        >Industrial Building Demolition</a
+                      >
+                      <a href="services/hanging.html">Hanging Demolition</a>
+                      <a href="services/soil-excavation.html"
+                        >Soil Excavation</a
+                      >
+                      <a href="services/debris-removing.html"
+                        >Debris Removing</a
+                      >
+                      <a href="services/sheet-piling.html"
+                        >Sheet Piling(6 M) and Shoring</a
+                      >
                     </div>
                   </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav__link" href="#experties">Experties</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link nav__link" href="#contact">Contact Us</a>
@@ -148,54 +222,146 @@
         </div>
       </nav>
     </main>
-    <footer id="contact">
-        <div class="footer-content">
-          <div class="container">
-            <div class="row">
-              <!-- <div class="footer-contact"> -->
-                <div class="col-lg-8 contact-us-div margin-footer">
-                  <h1 class="contact-us-title">Contact Us</h1>
-                  <div class="row">
-                    <div class="col-lg-6">
-                          <p class="contact-info offices"><i class="fas fa-map-marker-alt contact-icons"></i> Our Offices</p>
-                          <p class="contact-info">Lorem, ipsum.</p>
-                          <p class="contact-info">Lorem, ipsum.</p>
-                          <p class="contact-info">Lorem, ipsum.</p>
-                    </div>
-                       
-                    <div class="col-lg-6">
-                      <div>
-                        <p class="contact-info"><i class="fas fa-phone contact-icons"></i> 1234567890</p>
-                        <p class="contact-info"><i class="fas fa-envelope contact-icons"></i> deepam@gmail.com</p>
-                        <p class="contact-info"><i class="fab fa-whatsapp contact-icons"></i> 0987654321</p>
-                      </div>
-                    </div>
-                  </div>
-                  
-                </div>
-                <div class="col-lg-4 contact-us-div contact-social">
-                  <h1 class="contact-us-title">Social Media</h1>
-                  <span class="contact-info"><i class="fab fa-facebook contact-icons"></i></span>
-                  <span class="contact-info"><i class="fab fa-instagram contact-icons"></i></span>
-                  <span class="contact-info"><i class="fab fa-twitter contact-icons"></i></span>
-                </div>
-              <!-- </div> -->
-              
-            </div>
-          </div>
-          
-        </div>
-        
-      </footer>
-      <div class="copyright">
-        <div class="container">
-          <p>&copy; Copyright 2020 - Deepam Engineering Design by PixieDust</p>
-        </div>
-        
+    <section class="header">
+      <div class="glitch">
+        <div class="glitch__item"></div>
+        <div class="glitch__item"></div>
+        <div class="glitch__item"></div>
+        <div class="glitch__item"></div>
+        <div class="glitch__item"></div>
+        <h1 class="glitch__title">SHEET PILING AND SHORING</h1>
       </div>
+    </section>
+    <section class="content">
+      <div class="container">
+        <!-- <div class="row"> -->
+        <!-- <div class="col-lg-6"> -->
+        <p>
+          DEEPAM ENGINEERING provides the sheet pilling & shoring services for
+          the construction purpose to our clients. Steel sheet piles walls are
+          commonly installed for shallow excavations where the ease of driving a
+          series of steel sheets using excavator mounted vibro-hammer for a very
+          economical soil retention system. Our excavator equipped with a
+          specially fabricated dipper arm extension and a vibro-hammer has the
+          ability to install steel sheet piles at 6m and 12m long.
+        </p>
+        <p>
+          The vibro-hammer drives the sheet pile using high frequency vibrations
+          that liquefies most granular soils. This vibrational force coupled
+          with the down-crowd force applied by excavator boom coupled with
+          weight of vibro-hammer and the pile is sufficient to drive in ground .
+          The vibro-hammer works equally well in reverse for pile extraction.
+        </p>
+        <!-- </div> -->
+        <!-- <div class="col-lg-6"> -->
+        <!-- <img src="" alt="Sheet Pile"> -->
+        <!-- </div> -->
+        <!-- </div> -->
+      </div>
+    </section>
+    <footer id="contact">
+      <div class="footer-content">
+        <div class="container">
+          <div class="row">
+            <!-- <div class="footer-contact"> -->
+            <div class="col-lg-8 contact-us-div margin-footer">
+              <h1 class="contact-us-title">Contact Us</h1>
+              <div class="row">
+                <div class="col-lg-6">
+                  <p class="contact-info offices">
+                    <i class="fas fa-map-marker-alt contact-icons"></i> Our
+                    Offices
+                  </p>
+                  <p class="contact-info">Lorem, ipsum.</p>
+                  <p class="contact-info">Lorem, ipsum.</p>
+                  <p class="contact-info">Lorem, ipsum.</p>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="contact-footer">
+                    <p class="contact-info">
+                      <a href="tel:+91 1234567890"
+                        ><i class="fas fa-phone contact-icons"></i> +91
+                        1234567890</a
+                      >
+                    </p>
+                    <p class="contact-info">
+                      <a href="mailto:deepamchennai87@gmail.com"
+                        ><i class="fas fa-envelope contact-icons"></i>
+                        deepamchennai87@gmail.com</a
+                      >
+                    </p>
+                    <p class="contact-info">
+                      <a
+                        href="https://api.whatsapp.com/send?phone=+91 1234567890"
+                        ><i class="fab fa-whatsapp contact-icons"></i> +91
+                        1234567890</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 contact-us-div contact-social">
+              <h1 class="contact-us-title">Social Media</h1>
+              <span class="contact-info"
+                ><a href="https://www.facebook.com/deepamchennai/"
+                  ><i class="fab fa-facebook contact-icons"></i></a
+              ></span>
+              <span class="contact-info"
+                ><a href="https://www.instagram.com/deepam_engineering/"
+                  ><i class="fab fa-instagram contact-icons"></i></a
+              ></span>
+              <span class="contact-info"
+                ><a href="#"><i class="fab fa-twitter contact-icons"></i></a
+              ></span>
+            </div>
+            <!-- </div> -->
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">
+      <div class="container">
+        <p class="copyright-text">
+          &copy; Copyright 2020 - Deepam Engineering Design by PixieDust
+        </p>
+      </div>
+    </div>
     <button onclick="topFunction()" id="myBtn" title="Go to top">
       <i class="fas fa-arrow-up"></i>
     </button>
     <script src="../assets/js/main.js"></script>
+
+    <!-- Animation -->
+    <!-- <script src="assets/js/skrollr.js"></script>
+    <script type="text/javascript">
+      var s = skrollr.init();
+    </script> -->
+    <script src="../assets/js/scroll-out.min.js"></script>
+    <script type="text/javascript">
+      ScrollOut({
+        targets: "",
+      });
+    </script>
+
+    <!-- new files********************************************************** -->
+
+    <!-- Vendor JS Files -->
+    <!-- <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+    <!-- <script src="./vendor/jquery.easing/jquery.easing.min.js"></script> -->
+    <!-- <script src="./vendor/isotope-layout/isotope.pkgd.min.js"></script> -->
+    <!-- <script src="./vendor/venobox/venobox.min.js"></script> -->
+    <!-- <script src="./vendor/owl.carousel/owl.carousel.min.js"></script> -->
+    <!-- <script src="./vendor/owl.carousel/owl.carousel.js"></script> -->
+    <!-- <script src="./vendor/aos/aos.js"></script> -->
+    <!-- <script src="./Magnific-Popup/dist/jquery.magnific-popup.js"></script> -->
+    <!-- <script src="./Magnific-Popup/dist/jquery.magnific-popup.min.js"></script> -->
+    <!-- custom js file -->
+
+    <!-- <script src="./owl-carousel/js/owl.carousel.min.js"></script> -->
+    <!-- <script src="../js/main.js"></script> -->
   </body>
 </html>
+
+<!-- .about-pic, .service-card-left, .service-card-right, .service-card-center -->
