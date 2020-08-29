@@ -190,6 +190,10 @@
   .copyright {
     padding: 10px;
   }
+
+  .glitch__title {
+    font-size: 30px;
+  }
 }
 
 @media (max-height: 350px) {
