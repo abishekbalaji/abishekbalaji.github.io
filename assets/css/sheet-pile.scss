@@ -1,3 +1,5 @@
+$break-small: 576px;
+
 :root{
     --color-text: #fff;
     --color-bg: #000;
@@ -94,11 +96,15 @@
     
     .glitch__title{
       font-family: sans-serif;
-      font-size: 100px; 
+      font-size: 70px; 
       color: #ffffff;
       position: relative;
       text-transform: uppercase;    
       text-align: center;
+
+      @media (max-width: $break-small) {
+        font-size: 30px;
+      }
       
       &:before,
       &:after{
