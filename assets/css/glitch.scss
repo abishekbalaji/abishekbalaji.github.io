@@ -53,7 +53,13 @@ $break-small: 576px;
       top: 0;
       left: 0;
       position: absolute;
+      @media (max-width: $break-small) {
+        height: 80vh;
+        overflow-y: hidden;
+      }
+
     }
+
     
     .glitch__item:nth-child(n+2) {
       opacity: 0;
