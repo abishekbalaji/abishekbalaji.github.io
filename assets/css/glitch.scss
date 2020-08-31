@@ -41,11 +41,6 @@ $break-small: 576px;
     align-items: center;
     overflow: hidden;
     
-    @media (max-width: $break-small) {
-      height: 80vh;
-      overflow-y: hidden;
-    }
-    
     .glitch__item{
       background: url('../images/sheet-pile2.jpg') no-repeat 50% 50% / cover;
       height: 100%;
@@ -53,10 +48,6 @@ $break-small: 576px;
       top: 0;
       left: 0;
       position: absolute;
-      @media (max-width: $break-small) {
-        height: 80vh;
-        overflow-y: hidden;
-      }
 
     }
 
