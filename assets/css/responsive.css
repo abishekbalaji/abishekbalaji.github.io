@@ -203,6 +203,8 @@
   .color-overlay {
     height: 80vh;
   }
+
+  
 }
 
 @media (max-height: 350px) {
