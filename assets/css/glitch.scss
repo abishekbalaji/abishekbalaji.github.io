@@ -43,6 +43,7 @@ $break-small: 576px;
     
     @media (max-width: $break-small) {
       height: 80vh;
+      overflow-y: hidden;
     }
     
     .glitch__item{
