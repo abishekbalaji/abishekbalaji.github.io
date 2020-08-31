@@ -1,5 +1,13 @@
 body {
-  overflow: hidden;
+  overflow-x: hidden;
+}
+
+header {
+  overflow-x: hidden;
+}
+
+#main {
+  overflow-x: hidden;
 }
 
 .content {
