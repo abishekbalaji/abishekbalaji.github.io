@@ -194,6 +194,15 @@
   .glitch__title {
     font-size: 30px;
   }
+
+  /* Video */
+  .section-header {
+    height: 80vh;
+  }
+
+  .color-overlay {
+    height: 80vh;
+  }
 }
 
 @media (max-height: 350px) {
