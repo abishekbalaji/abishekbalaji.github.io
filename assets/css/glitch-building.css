@@ -28,47 +28,50 @@
   box-sizing: border-box;
 }
 
-.glitch {
+.header {
   width: 100vw;
   height: 100vh;
+}
+.header .glitch {
+  width: 100%;
+  height: 100%;
   max-width: 100%;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
-.glitch .glitch__item {
-  background: url("../images/bridge-water-cover.jpg") no-repeat 50% 50%/cover;
+.header .glitch .glitch__item {
+  background: url("../images/building.jpg") no-repeat 50% 50%/cover;
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
   position: absolute;
 }
-.glitch .glitch__item:nth-child(n+2) {
+.header .glitch .glitch__item:nth-child(n+2) {
   opacity: 0;
   animation-duration: var(--time-anim);
   animation-delay: var(--delay-anim);
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
-.glitch .glitch__item:nth-child(2) {
+.header .glitch .glitch__item:nth-child(2) {
   background-color: var(--blend-color-2);
   background-blend-mode: var(--blend-mode-2);
   animation-name: glitch-anim-2;
 }
-.glitch .glitch__item:nth-child(2) {
+.header .glitch .glitch__item:nth-child(2) {
   background-color: var(--blend-color-3);
   background-blend-mode: var(--blend-mode-3);
   animation-name: glitch-anim-3;
 }
-.glitch .glitch__item:nth-child(4) {
+.header .glitch .glitch__item:nth-child(4) {
   background-color: var(--blend-color-4);
   background-blend-mode: var(--blend-mode-4);
   animation-name: glitch-anim-4;
 }
-.glitch .glitch__item:nth-child(5) {
+.header .glitch .glitch__item:nth-child(5) {
   background-color: var(--blend-color-5);
   background-blend-mode: var(--blend-mode-5);
   animation-name: glitch-anim-flash;
@@ -83,7 +86,7 @@
     transform: translate3d(0, 0, 0);
   }
 }
-.glitch .glitch__title {
+.header .glitch .glitch__title {
   font-family: sans-serif;
   font-size: 70px;
   color: #ffffff;
@@ -92,12 +95,12 @@
   text-align: center;
 }
 @media (max-width: 576px) {
-  .glitch .glitch__title {
+  .header .glitch .glitch__title {
     font-size: 30px;
   }
 }
-.glitch .glitch__title:before, .glitch .glitch__title:after {
-  content: "OVERHEAD WATER TANK AND BRIDGE DEMOLITION";
+.header .glitch .glitch__title:before, .header .glitch .glitch__title:after {
+  content: "BUILDING DEMOLITION";
   text-align: center;
   position: absolute;
   left: 0;
@@ -106,13 +109,13 @@
   height: 100%;
   overflow: hidden;
 }
-.glitch .glitch__title:before {
+.header .glitch .glitch__title:before {
   left: 2px;
   text-shadow: -1px 0 #00ffea;
   clip: rect(24px, 550px, 90px, 0);
   animation: glitch-anim 2s linear infinite alternate-reverse;
 }
-.glitch .glitch__title:after {
+.header .glitch .glitch__title:after {
   left: -2px;
   text-shadow: -1px 0 #fe3a7f;
   clip: rect(85px, 550px, 140px, 0);
@@ -120,67 +123,67 @@
 }
 @keyframes glitch-anim {
   0% {
-    clip: rect(84px, 9999px, 71px, 0);
+    clip: rect(102px, 9999px, 35px, 0);
   }
   5% {
-    clip: rect(61px, 9999px, 79px, 0);
+    clip: rect(82px, 9999px, 56px, 0);
   }
   10% {
-    clip: rect(95px, 9999px, 129px, 0);
+    clip: rect(66px, 9999px, 151px, 0);
   }
   15% {
-    clip: rect(127px, 9999px, 11px, 0);
+    clip: rect(18px, 9999px, 99px, 0);
   }
   20% {
-    clip: rect(110px, 9999px, 81px, 0);
+    clip: rect(75px, 9999px, 6px, 0);
   }
   25% {
-    clip: rect(145px, 9999px, 134px, 0);
+    clip: rect(109px, 9999px, 128px, 0);
   }
   30% {
-    clip: rect(94px, 9999px, 42px, 0);
+    clip: rect(105px, 9999px, 169px, 0);
   }
   35% {
-    clip: rect(135px, 9999px, 91px, 0);
+    clip: rect(52px, 9999px, 116px, 0);
   }
   40% {
-    clip: rect(104px, 9999px, 62px, 0);
+    clip: rect(49px, 9999px, 66px, 0);
   }
   45% {
-    clip: rect(158px, 9999px, 88px, 0);
+    clip: rect(78px, 9999px, 98px, 0);
   }
   50% {
-    clip: rect(114px, 9999px, 73px, 0);
+    clip: rect(131px, 9999px, 122px, 0);
   }
   55% {
-    clip: rect(110px, 9999px, 131px, 0);
+    clip: rect(126px, 9999px, 33px, 0);
   }
   60% {
-    clip: rect(14px, 9999px, 158px, 0);
+    clip: rect(52px, 9999px, 9px, 0);
   }
   65% {
-    clip: rect(116px, 9999px, 31px, 0);
+    clip: rect(135px, 9999px, 38px, 0);
   }
   70% {
-    clip: rect(139px, 9999px, 122px, 0);
+    clip: rect(78px, 9999px, 132px, 0);
   }
   75% {
-    clip: rect(6px, 9999px, 32px, 0);
+    clip: rect(103px, 9999px, 41px, 0);
   }
   80% {
-    clip: rect(135px, 9999px, 121px, 0);
+    clip: rect(102px, 9999px, 161px, 0);
   }
   85% {
-    clip: rect(125px, 9999px, 17px, 0);
+    clip: rect(82px, 9999px, 119px, 0);
   }
   90% {
-    clip: rect(41px, 9999px, 86px, 0);
+    clip: rect(149px, 9999px, 78px, 0);
   }
   95% {
-    clip: rect(115px, 9999px, 87px, 0);
+    clip: rect(87px, 9999px, 1px, 0);
   }
   100% {
-    clip: rect(75px, 9999px, 73px, 0);
+    clip: rect(160px, 9999px, 119px, 0);
   }
 }
 
@@ -391,4 +394,4 @@
   }
 }
 
-/*# sourceMappingURL=glitch-bridge-water.css.map */
+/*# sourceMappingURL=glitch-building.css.map */
