@@ -1,8 +1,6 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  font-family: sans-serif;
-  /* overflow-x: hidden; */
 }
 
 @media (min-width: 1200px) {
@@ -11,23 +9,12 @@
   }
 }
 
-/* .wrapper {
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  perspective: 2px;
-} */
 
 html {
-  /* width: 100%; */
-  /* overflow: auto; */
   margin: 0;
-  /* height: 100%; */
   scroll-behavior: smooth;
-  /* overflow-x: hidden; */
 }
 body {
-  /* overflow-x: hidden; */
   margin: 0;
 }
 
@@ -64,6 +51,7 @@ header {
 
 #main {
   overflow-x: hidden;
+  
 }
 
 .top-location-social-media {
