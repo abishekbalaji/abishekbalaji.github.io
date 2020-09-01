@@ -339,7 +339,9 @@ a .social-icons {
 }
 
 .services-background {
-  background-image: url("../images/demolition-background.jpeg");
+  /* background-image: url("../images/demolition-background.jpeg"); */
+  background-image: url("../images/services-background.jpg");
+  background-position-x: 60%;
   background-size: cover;
 
   /* position: relative; */
