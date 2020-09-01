@@ -4,11 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Deepam</title>
+    <!-- Google Fonts -->
+    <!-- Roboto, Montserrat, Do Hyeon -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Montserrat:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Font Awesome -->
     <script
       src="https://kit.fontawesome.com/4fec4d615a.js"
       crossorigin="anonymous"
     ></script>
+    <!-- <script src="../assets/js/bootstrap.min.js"></script> -->
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
     <!-- JQuery -->
@@ -21,25 +29,49 @@
     ></script>
     <!-- Bootstrap JS -->
     <script src="../assets/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../Magnific-Popup/dist/magnific-popup.css" />
+    <!-- Vendor CSS Files -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
+    <link href="../vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="../vendor/venobox/venobox.css" rel="stylesheet" />
+    <link
+      href="../vendor/owl.carousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link href="../vendor/aos/aos.css" rel="stylesheet" />
     <!-- Main CSS file -->
+    <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="stylesheet" href="../assets/css/glitch-industrial.css" />
+    <link rel="stylesheet" href="../assets/css/sheet-pile-main.css" />
+    <link rel="stylesheet" href="../assets/css/building-main.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="../assets/css/responsive.css" />
   </head>
   <body>
     <header>
       <div class="top-location-social-media row">
-        <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+        <div class="col-sm-8">
           <p class="top-location">
-            <i class="fas fa-map-marker-alt"></i> Chennai, Tamil Nadu, India
+            <i class="fas fa-map-marker-alt top-location-icon"></i> Chennai,
+            Tamil Nadu, India
           </p>
         </div>
 
-        <div class="top-social-media col-lg-4">
+        <div class="top-social-media col-sm-4">
           <div class="top-social-media-container ml-auto">
-            <span><i class="fab fa-facebook social-icons"></i></span>
-            <span><i class="fab fa-instagram social-icons"></i></span>
-            <span><i class="fab fa-twitter social-icons"></i></span>
+            <span
+              ><a href="https://www.facebook.com/deepamchennai/"
+                ><i class="fab fa-facebook social-icons"></i></a
+            ></span>
+            <span
+              ><a href="https://www.instagram.com/deepam_engineering/"
+                ><i class="fab fa-instagram social-icons"></i></a
+            ></span>
+            <span
+              ><a href="#"><i class="fab fa-twitter social-icons"></i></a
+            ></span>
           </div>
         </div>
       </div>
@@ -63,14 +95,18 @@
                 <li>
                   <div>
                     <p class="top-contact-para">Call Us</p>
-                    <p class="top-contact-para top-para-content">1234567890</p>
+                    <p class="top-contact-para top-para-content">
+                      <a href="tel:+91 1234567890">+91 1234567890</a>
+                    </p>
                   </div>
                 </li>
                 <li>
                   <div>
                     <p class="top-contact-para">Email Us</p>
                     <p class="top-contact-para top-para-content">
-                      deepamchennai87@gmail.com
+                      <a href="mailto:deepamchennai87@gmail.com"
+                        >deepamchennai87@gmail.com</a
+                      >
                     </p>
                   </div>
                 </li>
@@ -88,13 +124,16 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="site-main">
+      <!--Added class********************-->
       <nav
         id="navig"
         class="sticky-top navbar navbar-expand-lg bg-dark navbar-dark"
       >
         <div class="container">
+          <!-- <a class="navbar-brand brand-text" href="#">Deepam</a> -->
           <button
+            id="tog-btn"
             class="navbar-toggler"
             type="button"
             data-toggle="collapse"
@@ -107,6 +146,18 @@
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- <div class="nav__contact-details">
+            <ul class="navbar-nav nav__links">
+              <li class="nav-item active d-flex align-items-end">
+                <a class="nav-link nav__link" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav__link" href="#">About Us</a>
+              </li>
+            </ul>
+          </div> -->
             <div class="nav_links_div">
               <ul class="navbar-nav nav__links">
                 <li class="nav-item active d-flex align-items-end">
@@ -119,26 +170,31 @@
                 </li> -->
                 <li class="nav-item">
                   <div class="dropdown1">
-                    <a class="nav-link nav__link dropbtn" href="#"
-                      >Services</a
-                    >
+                    <a class="nav-link nav__link dropbtn" href="#">Services</a>
                     <div class="dropdown-content1">
                       <a href="high-reach.html">High Reach Demolition</a>
                       <a href="jaw-crushers.html">Jaw Crushers</a>
                       <a href="building-demolition.html">Building Demolition</a>
                       <a href="bridge-demolition.html">Bridge Demolition</a>
-                      <a href="water-tank.html">Overhead Water Tank Demolition</a>
+                      <a href="water-tank.html"
+                        >Overhead Water Tank Demolition</a
+                      >
                       <a href="power-plant.html">Power Plant Demolition</a>
-                      <a href="cricket-stadium.html">Cricket Stadium Demolition</a>
+                      <a href="cricket-stadium.html"
+                        >Cricket Stadium Demolition</a
+                      >
                       <a href="silo.html">Silo Demolition</a>
-                      <a href="#">Industrial Building Demolition</a>
+                      <a href="#"
+                        >Industrial Building Demolition</a
+                      >
                       <a href="hanging.html">Hanging Demolition</a>
                       <a href="soil-excavation.html">Soil Excavation</a>
                       <a href="debris-removing.html">Debris Removing</a>
-                      <a href="sheet-piling.html">Sheet Piling(6 M) and Shoring</a>
+                      <a href="sheet-piling.html">Sheet Piling and Shoring</a>
                     </div>
                   </div>
                 </li>
+
                 <li class="nav-item">
                   <a class="nav-link nav__link" href="#contact">Contact Us</a>
                 </li>
@@ -147,55 +203,364 @@
           </div>
         </div>
       </nav>
-    </main>
-    <footer id="contact">
-        <div class="footer-content">
+      
+        <section class="header">
+          <div class="glitch">
+            <div class="glitch__item"></div>
+            <div class="glitch__item"></div>
+            <div class="glitch__item"></div>
+            <div class="glitch__item"></div>
+            <div class="glitch__item"></div>
+            <h1 class="glitch__title">INDUSTRIAL BUILDING AND PLANT DEMOLITION</h1>
+          </div>
+        </section>
+        <section class="content">
           <div class="container">
+            <!-- <div class="row"> -->
+            <!-- <div class="col-lg-6"> -->
+            <p class="content-text">
+              We have invested in the people, machinery, and processes needed to successfully execute 
+              demolition and dismantling projects within the industrial sector.  
+            </p>
+            <br />
+            <br />
+            <p class="content-text content-text2">
+              DEEPAM ENGINEERING  possesses one of the largest industrial demolition fleets in the Chennai, 
+              offering comprising specialist heavy-duty excavators ranging from 15-50 tonnes. our highly 
+              skilled team is capable of completing even the most complex of industrial demolition projects - 
+              all backed by the leading health and safety and management systems that you need from an 
+              industrial demolition contractor. 
+            </p>
+            <br />
+            <br />
+            <p class="content-text">
+              Our experience includes demolishing and dismantling a variety of sites covering all industrial 
+              sectors including power stations, petrochemical, pharmaceutical, gas, water, and nuclear plants.
+            </p>
+            <br />
+            <br />
+            <p class="content-text content-text2">
+              It’s no secret that industrial structures can pose complex, hazardous challenges. As a 
+              consequence, our clients are increasingly drawing upon our vast experience in demolishing and 
+              dismantling a wide variety of industrial structures in the safest, most cost-efficient, and least 
+              disruptive manner possible.
+            </p>
+            <!-- </div> -->
+            <!-- <div class="col-lg-6"> -->
+            <!-- <img src="" alt="Sheet Pile"> -->
+            <!-- </div> -->
+            <!-- </div> -->
+          </div>
+        </section>
+        <!-- <section class="sheet-pile-gallery">
+        <div class="container">
+          <h1 class="sheet-gallery-main-title">Gallery</h1>
+          <div class="sheet-material-div">
+            <h2 class="sheet-material-title">Sheet Material</h2>
             <div class="row">
-              <!-- <div class="footer-contact"> -->
-                <div class="col-lg-8 contact-us-div margin-footer">
-                  <h1 class="contact-us-title">Contact Us</h1>
-                  <div class="row">
-                    <div class="col-lg-6">
-                          <p class="contact-info offices"><i class="fas fa-map-marker-alt contact-icons"></i> Our Offices</p>
-                          <p class="contact-info">Lorem, ipsum.</p>
-                          <p class="contact-info">Lorem, ipsum.</p>
-                          <p class="contact-info">Lorem, ipsum.</p>
-                    </div>
-                       
-                    <div class="col-lg-6">
-                      <div>
-                        <p class="contact-info"><i class="fas fa-phone contact-icons"></i> 1234567890</p>
-                        <p class="contact-info"><i class="fas fa-envelope contact-icons"></i> deepam@gmail.com</p>
-                        <p class="contact-info"><i class="fab fa-whatsapp contact-icons"></i> 0987654321</p>
-                      </div>
-                    </div>
-                  </div>
-                  
-                </div>
-                <div class="col-lg-4 contact-us-div contact-social">
-                  <h1 class="contact-us-title">Social Media</h1>
-                  <span class="contact-info"><i class="fab fa-facebook contact-icons"></i></span>
-                  <span class="contact-info"><i class="fab fa-instagram contact-icons"></i></span>
-                  <span class="contact-info"><i class="fab fa-twitter contact-icons"></i></span>
-                </div>
-              <!-- </div> -->
-              
+              <div class="col-lg-6 sheet-pile-container">
+                <img
+                  class="sheet-pile-images"
+                  src="../assets/images/sheet-material1.jpg"
+                  alt="sheet material"
+                />
+              </div>
+              <div class="col-lg-6 sheet-pile-container">
+                <img
+                  class="sheet-pile-images"
+                  src="../assets/images/sheet-material2.jpg"
+                  alt="sheet-material"
+                />
+              </div>
             </div>
           </div>
-          
+          <div class="site-work-div">
+            <h2 class="sheet-material-title">Site Work</h2>
+            <div class="row">
+              <div class="col-lg-6 sheet-pile-container">
+                <img
+                  class="sheet-pile-images"
+                  src="../assets/images/sheet-pile-site-work1.jpg"
+                  alt="sheet material"
+                />
+              </div>
+              <div class="col-lg-6 sheet-pile-container">
+                <img
+                  class="sheet-pile-images"
+                  src="../assets/images/sheet-pile-site-work2.jpg"
+                  alt="sheet-material"
+                />
+              </div>
+            </div>
+          </div>
+  
+          <div class="row">
+            <div class="col-lg-12 sheet-pile-container">
+              <img
+                class="sheet-pile-images"
+                src="../assets/images/sheet-pile-site-work3.jpg"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
-        
-      </footer>
-      <div class="copyright">
+      </section> -->
+        <section id="portfolio" class="portfolio">
+          <div class="container">
+            <div class="section-title">
+              <h1 id="ph">GALLERY</h1>
+            </div>
+  
+            <div class="row" data-aos="fade-up">
+              <div class="col-lg-12 d-flex justify-content-center">
+                <ul id="portfolio-flters">
+                  <li data-filter="*" class="filter-active">All</li>
+                  <li data-filter=".filter-industry">Industrial Demolition</li>
+                  <li data-filter=".filter-plant">Power Plant Demolition</li>
+                </ul>
+              </div>
+            </div>
+  
+            <div
+              class="row portfolio-container"
+              data-aos="fade-up"
+              data-aos-delay="150"
+            >
+              <!-- 1 first div section -->
+  
+              <!-- 1-->
+              <div class="col-lg-3 col-md-6 portfolio-item filter-industry">
+                <img
+                  src="../assets/images/industry1.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>DEEPAM</h4>
+                  <!--    <p></p> we can add some more details further   -->
+                  <a
+                    href="../assets/images/industry1.jpg"
+                    data-gall="portfolioGallery"
+                    class="venobox preview-link"
+                    title="App 1"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <!-- <a
+                  href="assets/portfolio-details.html"
+                  class="details-link"
+                  title="More Details"
+                  ><i class="bx bx-link"></i
+                ></a> -->
+                </div>
+              </div>
+              <!-- 2 -->
+              <div class="col-lg-3 col-md-6 portfolio-item filter-plant">
+                <img
+                  src="../assets/images/power-plant1.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>DEEPAM</h4>
+                  <!-- <p>Web</p> -->
+                  <a
+                    href="../assets/images/power-plant1.jpg"
+                    data-gall="portfolioGallery"
+                    class="venobox preview-link"
+                    title="Web 3"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <!-- <a
+                  href="assets/portfolio-details.html"
+                  class="details-link"
+                  title="More Details"
+                  ><i class="bx bx-link"></i
+                ></a> -->
+                </div>
+              </div>
+              <!-- 3 -->
+              <!-- <div class="col-lg-3 col-md-6 portfolio-item filter-building">
+                <img
+                  src="../assets/images/building-demolition-3.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>DEEPAM</h4> -->
+                  <!-- <p>App</p> -->
+                  <!-- <a
+                    href="../assets/images/building-demolition-3.jpg"
+                    data-gall="portfolioGallery"
+                    class="venobox preview-link"
+                    title="App 2"
+                    ><i class="bx bx-plus"></i
+                  ></a> -->
+                  <!-- <a
+                  href="assets/portfolio-details.html"
+                  class="details-link"
+                  title="More Details"
+                  ><i class="bx bx-link"></i
+                ></a> -->
+                </div>
+              </div>
+              <!-- 4-->
+              <!-- <div class="col-lg-3 col-md-6 portfolio-item filter-site">
+                <img
+                  src="../assets/images/sheet-pile-site-work2.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>DEEPAM</h4> -->
+                  <!-- <p>App</p> -->
+                  <!-- <a
+                    href="../assets/images/sheet-pile-site-work2.jpg"
+                    data-gall="portfolioGallery"
+                    class="venobox preview-link"
+                    title="App 2"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="assets/portfolio-details.html"
+                    class="details-link"
+                    title="More Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 portfolio-item filter-site">
+                <img
+                  src="../assets/images/sheet-pile-site-work3.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>DEEPAM</h4> -->
+                  <!-- <p>App</p> -->
+                  <!-- <a
+                    href="../assets/images/sheet-pile-site-work3.jpg"
+                    data-gall="portfolioGallery"
+                    class="venobox preview-link"
+                    title="App 2"
+                    ><i class="bx bx-plus"></i
+                  ></a> -->
+                  <!-- <a
+                  href="assets/portfolio-details.html"
+                  class="details-link"
+                  title="More Details"
+                  ><i class="bx bx-link"></i
+                ></a> -->
+                <!-- </div> -->
+              </div>
+            </div>
+          </div>
+        </section>
+ 
+      
+    </main>
+    <footer id="contact">
+      <div class="footer-content">
         <div class="container">
-          <p>&copy; Copyright 2020 - Deepam Engineering Design by PixieDust</p>
+          <div class="row">
+            <!-- <div class="footer-contact"> -->
+            <div class="col-lg-8 contact-us-div margin-footer">
+              <h1 class="contact-us-title">Contact Us</h1>
+              <div class="row">
+                <div class="col-lg-6">
+                  <p class="contact-info offices">
+                    <i class="fas fa-map-marker-alt contact-icons"></i> Our
+                    Offices
+                  </p>
+                  <p class="contact-info">Lorem, ipsum.</p>
+                  <p class="contact-info">Lorem, ipsum.</p>
+                  <p class="contact-info">Lorem, ipsum.</p>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="contact-footer">
+                    <p class="contact-info">
+                      <a href="tel:+91 1234567890"
+                        ><i class="fas fa-phone contact-icons"></i> +91
+                        1234567890</a
+                      >
+                    </p>
+                    <p class="contact-info">
+                      <a href="mailto:deepamchennai87@gmail.com"
+                        ><i class="fas fa-envelope contact-icons"></i>
+                        deepamchennai87@gmail.com</a
+                      >
+                    </p>
+                    <p class="contact-info">
+                      <a
+                        href="https://api.whatsapp.com/send?phone=+91 1234567890"
+                        ><i class="fab fa-whatsapp contact-icons"></i> +91
+                        1234567890</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 contact-us-div contact-social">
+              <h1 class="contact-us-title">Social Media</h1>
+              <span class="contact-info"
+                ><a href="https://www.facebook.com/deepamchennai/"
+                  ><i class="fab fa-facebook contact-icons"></i></a
+              ></span>
+              <span class="contact-info"
+                ><a href="https://www.instagram.com/deepam_engineering/"
+                  ><i class="fab fa-instagram contact-icons"></i></a
+              ></span>
+              <span class="contact-info"
+                ><a href="#"><i class="fab fa-twitter contact-icons"></i></a
+              ></span>
+            </div>
+            <!-- </div> -->
+          </div>
         </div>
-        
       </div>
+    </footer>
+    <div class="copyright">
+      <div class="container">
+        <p class="copyright-text">
+          &copy; Copyright 2020 - Deepam Engineering Design by PixieDust
+        </p>
+      </div>
+    </div>
     <button onclick="topFunction()" id="myBtn" title="Go to top">
       <i class="fas fa-arrow-up"></i>
     </button>
     <script src="../assets/js/main.js"></script>
+
+    <!-- Animation -->
+    <!-- <script src="assets/js/skrollr.js"></script>
+    <script type="text/javascript">
+      var s = skrollr.init();
+    </script> -->
+    <script src="../assets/js/scroll-out.min.js"></script>
+    <script type="text/javascript">
+      ScrollOut({
+        targets: ".content-text",
+      });
+    </script>
+
+    <!-- new files********************************************************** -->
+
+    <!-- Vendor JS Files -->
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="../vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="../vendor/venobox/venobox.min.js"></script>
+    <script src="../vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="../vendor/owl.carousel/owl.carousel.js"></script>
+    <script src="../vendor/aos/aos.js"></script>
+    <script src="../Magnific-Popup/dist/jquery.magnific-popup.js"></script>
+    <script src="../Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+    <!-- custom js file -->
+
+    <script src="../owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="../js/main.js"></script>
   </body>
 </html>
+
+<!-- .about-pic, .service-card-left, .service-card-right, .service-card-center -->
