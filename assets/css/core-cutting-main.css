@@ -1,0 +1,31 @@
+.applications-title {
+  /* color: #ffb600; */
+  margin-bottom: 25px;
+  padding-left: 15px;
+  border-left: 2px solid #ffb600;
+}
+
+.list-subtitle {
+  color: #ffb600;
+  font-weight: bold;
+}
+
+.applications-item-left {
+  transition: 0.5s;
+  transform-origin: left;
+  transform: translateX(-1000px);
+}
+
+.applications-item-left[data-scroll="in"] {
+  transform: translateX(0);
+}
+
+.applications-item-right {
+  transition: 0.5s;
+  transform-origin: right;
+  transform: translateX(1000px);
+}
+
+.applications-item-right[data-scroll="in"] {
+  transform: translateX(0);
+}
