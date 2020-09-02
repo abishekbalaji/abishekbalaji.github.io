@@ -896,7 +896,7 @@ footer {
 .section-header {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: fit-content !important;
   overflow: hidden;
 }
 
@@ -914,7 +914,13 @@ footer {
   left: 0;
   background-color: rgba(26, 26, 29, 0.7);
   width: 100%;
-  height: 100vh;
+  height: 100%;
+}
+
+video {
+  /* override other styles to make responsive */
+  width: 100%    !important;
+  height: auto   !important;
 }
 
 /* Back to top Button */
