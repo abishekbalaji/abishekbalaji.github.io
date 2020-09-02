@@ -64,3 +64,4 @@ $(".testimonials-carousel").owlCarousel({
   loop: true,
   items: 1,
 });
+

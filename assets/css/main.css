@@ -230,10 +230,6 @@ a .social-icons {
   color: white;
 }
 
-.carousal-section-div {
-  /* height: 500px; */
-}
-
 .about-div-row {
   margin: 0 auto;
 }
@@ -896,7 +892,7 @@ footer {
 .section-header {
   position: relative;
   width: 100%;
-  height: fit-content !important;
+  /* height: fit-content !important; */
   overflow: hidden;
 }
 
@@ -919,8 +915,8 @@ footer {
 
 video {
   /* override other styles to make responsive */
-  width: 100%    !important;
-  height: auto   !important;
+  width: 100% !important;
+  height: auto !important;
 }
 
 /* Back to top Button */
