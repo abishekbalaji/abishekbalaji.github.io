@@ -9,7 +9,6 @@
   }
 }
 
-
 html {
   margin: 0;
   scroll-behavior: smooth;
@@ -51,7 +50,6 @@ header {
 
 #main {
   overflow-x: hidden;
-  
 }
 
 .top-location-social-media {
@@ -342,6 +340,13 @@ a .social-icons {
   /* background-image: url("../images/demolition-background.jpeg"); */
   background-image: url("../images/services-background.jpg");
   background-position-x: 60%;
+  /* background-size: cover; */
+
+  /* Parallax effect */
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 
   /* position: relative; */
@@ -499,6 +504,11 @@ a .social-icons {
   background-size: cover;
   /* overflow-y: hidden; */
   height: 100%;
+  /* min-height: 500px; */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .things-div {
