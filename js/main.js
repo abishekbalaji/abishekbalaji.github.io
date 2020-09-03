@@ -97,8 +97,7 @@ $(document).ready(function () {
 (function () {
   var words = [
       "Demolition with safety and speed like no other",
-      "Demoliton is an art...",
-      "and We have mastered it",
+      "No job is too big",
       "Fastest growing company",
     ],
     i = 0;
