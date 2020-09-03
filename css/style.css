@@ -459,3 +459,13 @@ h2 {
   font-size: 50px !important;
   color: blueviolet;
 }
+
+/* Top subtitle changing effect */
+
+#changingword {
+  /* color: #ffb600; */
+  /* font-size: 60px; */
+  /* text-align: center; */
+  /* font-family: "Erica One", cursive; */
+  /* padding: 3% 0; */
+}

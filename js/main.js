@@ -91,3 +91,22 @@ $(document).ready(function () {
     ],
   });
 });
+
+// Top Subtitle text changing effect
+
+(function () {
+  var words = [
+      "Demolition with safety and speed like no other",
+      "Demoliton is an art...",
+      "and We have mastered it",
+      "Fastest growing company",
+    ],
+    i = 0;
+  setInterval(function () {
+    $("#changingword").fadeOut(function () {
+      $(this)
+        .html(words[(i = (i + 1) % words.length)])
+        .fadeIn();
+    });
+  }, 1700);
+})();
