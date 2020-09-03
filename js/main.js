@@ -114,8 +114,8 @@ $(document).ready(function () {
 
 (function () {
   var words = [
-      "Demolition with safety and speed like no other",
-      "No job is too big",
+      "Demolition with safety",
+      "Speed like no other",
       "Fastest growing company",
     ],
     i = 0;
