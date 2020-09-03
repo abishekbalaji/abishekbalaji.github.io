@@ -77,15 +77,33 @@ $(document).ready(function () {
     pauseOnHover: false,
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 1250,
+        settings: {
+          slidesToShow: 5,
+        },
+      },
+      {
+        breakpoint: 1000,
         settings: {
           slidesToShow: 4,
         },
       },
       {
-        breakpoint: 520,
+        breakpoint: 900,
         settings: {
           slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 520,
+        settings: {
+          slidesToShow: 1,
         },
       },
     ],
@@ -109,3 +127,5 @@ $(document).ready(function () {
     });
   }, 1700);
 })();
+
+
