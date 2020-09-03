@@ -114,9 +114,9 @@ $(document).ready(function () {
 
 (function () {
   var words = [
-      "Demolition with safety",
       "Speed like no other",
       "Fastest growing company",
+      "Demolition with safety",
     ],
     i = 0;
   setInterval(function () {
@@ -125,7 +125,5 @@ $(document).ready(function () {
         .html(words[(i = (i + 1) % words.length)])
         .fadeIn();
     });
-  }, 1700);
+  }, 2700);
 })();
-
-
