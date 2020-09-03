@@ -650,8 +650,9 @@ a .social-icons {
 
 .clients-title {
   color: white;
-  font-size: 54px;
+  font-size: 50px;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .client {
@@ -724,26 +725,48 @@ a .social-icons {
   margin-bottom: 40px;
 }
 
+.text {
+  /* border: 2px solid #ffb600; */
+  background-color: #ffb600;
+  padding: 16px;
+  color: white;
+}
+
+.founder-details {
+  font-size: 14px;
+}
+
+.founder-details-name {
+  font-size: 16px;
+  color: #030303;
+  font-weight: bold;
+}
+
+.we-deepam {
+  color: #030303;
+  font-weight: bold;
+}
+
+
 .image {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.overlay {
+/* .overlay {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  /* background-color: #008cba; */
   background-color: rgba(26, 26, 29, 0.7);
   overflow: hidden;
   width: 0;
   height: 85%;
   transition: 0.5s ease;
-}
+} */
 
-.we-div:hover .overlay {
+/* .we-div:hover .overlay {
   width: 100%;
 }
 
@@ -757,8 +780,8 @@ a .social-icons {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   white-space: nowrap;
-  /* padding: 40px; */
-}
+
+} */
 
 .section-till-now {
   /* height: 200px; */
@@ -800,6 +823,10 @@ a .social-icons {
   font-size: 40px;
 }
 
+.section-map {
+  overflow-x: hidden;
+}
+
 footer {
   background-color: #030303;
   padding: 80px 0;
@@ -837,6 +864,7 @@ footer {
 
 .offices {
   font-size: 24px;
+  color: #ffb600;
 }
 
 .contact-social {

@@ -42,7 +42,7 @@ $break-small: 576px;
     align-items: center;
 
     .glitch__item {
-      background: url("../images/hanging2.jpg") no-repeat 50% 50% / cover;
+      background: url("../images/rock1.png") no-repeat 50% 50% / cover;
       height: 100%;
       width: 100%;
       top: 0;
@@ -114,7 +114,7 @@ $break-small: 576px;
 
       &:before,
       &:after {
-        content: "CRANE HANGING DEMOLITION";
+        content: "ROCK BREAKER";
         text-align: center;
         position: absolute;
         left: 0;

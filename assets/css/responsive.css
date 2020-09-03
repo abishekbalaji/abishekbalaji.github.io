@@ -172,12 +172,19 @@
     font-size: 30px;
   }
 
-  #ph {
+  .clients-title {
     font-size: 30px;
   }
 
+  #ph {
+    font-size: 30px;
+  }
+  .portfolio #ph {
+    font-size: 30px !important;
+  }
   #gap {
-    font-size: 18px;
+    padding-top: 0;
+    font-size: 18px !important;
   }
 
   #brand {
@@ -216,19 +223,16 @@
     font-size: 26px;
   }
 
+  .founder-details-name {
+    font-size: 14px;
+  }
+  
 
-  .overlay {
-    left: 10px;
-    height: 70%;
+  .founder-details {
+    font-size: 12px;
   }
 
-  .we-div:hover .overlay {
-    width: 50%;
-  }
 
-  .text {
-    height: 70%;
-  }
 
   .contact-info {
     font-size: 12px;
@@ -337,6 +341,82 @@
     font-size: 14px;
     margin: 10px;
     margin-bottom: 50px;
+  }
+
+
+  .main-title-div {
+    /* padding: 0; */
+    margin: 0;
+  }
+}
+
+@media (max-width: 334px) {
+  .main-title {
+    font-size: 24px;
+    margin-top: 40px;
+  }
+
+  .main-subtitle {
+    font-size: 14px;
+    margin: 10px;
+    margin-bottom: 40px;
+  }
+
+
+  .main-title-div {
+    /* padding: 0; */
+    margin: 0;
+  }
+}
+
+@media (max-width: 316px) {
+  .main-title {
+    font-size: 20px;
+    margin-top: 40px;
+  }
+
+  .main-subtitle {
+    font-size: 14px;
+    margin: 10px;
+    margin-bottom: 40px;
+  }
+
+
+  .main-title-div {
+    /* padding: 0; */
+    margin: 0;
+  }
+}
+
+@media (max-width: 308px) {
+  .main-title {
+    font-size: 22px;
+    margin-top: 30px;
+  }
+
+  .main-subtitle {
+    font-size: 14px;
+    margin: 10px;
+    margin-bottom: 30px;
+  }
+
+
+  .main-title-div {
+    /* padding: 0; */
+    margin: 0;
+  }
+}
+
+@media (max-width: 355px) {
+  .main-title {
+    font-size: 21px;
+    margin-top: 25px;
+  }
+
+  .main-subtitle {
+    font-size: 14px;
+    margin: 10px;
+    margin-bottom: 25px;
   }
 
 
