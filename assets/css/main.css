@@ -747,7 +747,6 @@ a .social-icons {
   font-weight: bold;
 }
 
-
 .image {
   display: block;
   width: 100%;
@@ -945,6 +944,7 @@ video {
   /* override other styles to make responsive */
   width: 100% !important;
   height: auto !important;
+  pointer-events: none;
 }
 
 /* Back to top Button */
