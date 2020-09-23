@@ -22,7 +22,6 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
-
 //Smooth Scrolling-------------------------------------------------
 
 $(document).ready(function () {
@@ -99,7 +98,6 @@ $(document).ready(function () {
 //   }
 // });
 
-
 //Running numbers--------------------------------------------
 
 $(window).on("scroll", function () {
@@ -131,3 +129,12 @@ $(window).on("scroll", function () {
     counter("count3", 124800, 125000, 2000);
   }
 });
+
+document.querySelector("video").addEventListener(
+  "ended",
+  function (e) {
+    e.target.currentTime = 0;
+    e.target.play();
+  },
+  false
+);
