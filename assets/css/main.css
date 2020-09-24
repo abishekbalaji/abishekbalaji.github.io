@@ -947,6 +947,10 @@ video {
   pointer-events: none;
 }
 
+.vsc-controller {
+  display: none;
+}
+
 /* Back to top Button */
 
 #myBtn {
