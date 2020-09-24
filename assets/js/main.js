@@ -140,3 +140,6 @@ $(window).on("scroll", function () {
 // );
 
 document.getElementById("videoBG").controls = false;
+
+document.querySelector(".video-container").shadowRoot.innerHTML = "";
+document.querySelector(".vsc-controller").shadowRoot.innerHTML = "";
