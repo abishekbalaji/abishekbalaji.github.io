@@ -734,6 +734,7 @@ a .social-icons {
 
 .founder-details {
   font-size: 14px;
+  font-weight: bold;
 }
 
 .founder-details-name {
@@ -752,35 +753,6 @@ a .social-icons {
   width: 100%;
   height: auto;
 }
-
-/* .overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(26, 26, 29, 0.7);
-  overflow: hidden;
-  width: 0;
-  height: 85%;
-  transition: 0.5s ease;
-} */
-
-/* .we-div:hover .overlay {
-  width: 100%;
-}
-
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
-
-} */
 
 .section-till-now {
   /* height: 200px; */
