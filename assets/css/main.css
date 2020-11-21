@@ -324,6 +324,37 @@ a .social-icons {
   /* transition-delay: 1s; */
 }
 
+.services_buttons_container {
+  margin-top: 50px;
+}
+
+.services_buttons_container > .row {
+  display: flex;
+  justify-content: center;
+}
+
+#services-link-btn {
+  color: white;
+  margin-right: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  /* height: 100px; */
+  margin-bottom: 20px;
+  padding: 30px 10px;
+}
+
+
+/* .last {
+  padding: 20px 0 !important;
+} */
+
+#services-link-btn:hover {
+  color: #e0a82a;
+  background-color: white;
+  border: none;
+}
+
 .services-cards-row {
   /* padding: 50px; */
   margin: 0;
