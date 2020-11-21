@@ -359,7 +359,6 @@ a .social-icons {
   /* padding: 50px; */
   margin: 0;
   /* width: 100%; */
-  margin-bottom: 30px;
   /* display: inline-block; */
 }
 
@@ -399,6 +398,7 @@ a .social-icons {
 
 .service {
   border: none;
+  margin-bottom: 30px;
 }
 
 .service-body {
